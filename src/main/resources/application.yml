@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: Leave Management System
+  datasource:
+    url: jdbc:mysql://localhost:3306/leave-management-system?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root
+    password: cnpmnc@241
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
